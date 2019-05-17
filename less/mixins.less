@@ -1,1 +1,12 @@
 // Mixins in here
+.flexboxHandler(@flex-flow: row; @justify: center; @alignItem: center;){
+    display: flex;
+    flex-flow: @flex-flow;
+    justify-content: @justify;
+    align-items: @alignItem;
+}
+
+.colorFontBG(@font-color: black; @bg: red;){
+    color: @font-color;
+    background-color: @bg;
+}
