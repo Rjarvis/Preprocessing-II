@@ -1,1 +1,24 @@
 // Navigation Styles here
+header{
+    .flexboxHandler(row,center,center);
+    .borderBottomMaker(grey, dashed, 1px);
+    h1{
+        float: left;
+
+    }
+    nav{
+        .flexboxHandler(row, center, center);
+        
+        
+        @media(max-width: @tablet){
+            .flexboxHandler(column, center, center);
+        }
+
+        a{
+            .flexboxHandler(row, center, center);
+            .textHandler(black, none, 1rem);
+        }
+    }
+
+
+}
